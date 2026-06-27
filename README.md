@@ -6,7 +6,11 @@
 
 ## Как пользоваться:
 
+```python
 from lgcgear import mulgear
+```
+
+Не забудьте что что-бы использовать эту библеотеку в других скриптах вы должны обернуть этот файл в папку и все скрипты в неё!
 
 **Порядок аргументов:**
 Первым ставьте, будет ли вентиль инвертирующим (`True`/`False`), затем сам тип вентиля (`str`), и потом входы (их количество бесконечно).
@@ -30,6 +34,8 @@ This is a simple single-function library that adds digital logic gate simulation
 ```python
 from lgcgear import mulgear
 ```
+
+Don't forget that to use this library in other scripts, you must wrap this file in a folder and all the scripts in it!
 
 **Argument order:**
 1. `ifnot` (bool) — whether to invert the gate result (`True`/`False`).
