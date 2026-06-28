@@ -17,7 +17,7 @@ def mulgear(ifnot, geartype, *inputs):
 		if sum(inputs) >= 1:
 			result = True
 	elif geartype == "xor":
-		if sum(inputs) % 2 == 0 and sum(inputs) >= 1:
+		if sum(inputs) % 2 == 1:
 			result = True
 	if ifnot == True:
 		return not result
