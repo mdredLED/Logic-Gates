@@ -25,6 +25,10 @@ print(mulgear(True, "buf", False)) # Выведет: True
 print(mulgear(True, "and", False, True)) # выведет: True
 ```
 
+## Будущие обновления:
+
+Потом я добавлю в код больше логических функций!
+
 ## (EN):
 
 This is a simple single-function library that adds digital logic gate simulations such as AND, OR, XOR, and their inverted versions (NAND, NOR, XNOR).
@@ -51,3 +55,7 @@ Example:
 ```python
 print(mulgear(True, "and", False, True)) # Output: True
 ```
+
+## Future updates:
+
+I'll add more logic functions to the code later!
